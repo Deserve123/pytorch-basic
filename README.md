@@ -34,11 +34,11 @@
 
 ## 2.1 安装清单
 
-| 组件          | 说明                                                                                                                   |
-| ----------- | -------------------------------------------------------------------------------------------------------------------- |
-| Python 3.12 | python运行环境                                                                                                           |
-| PyTorch     | pip install torch torchvision torchaudio （CPU版）        pytorch.org 复制带 cuda 的命令 （GPU版） |
-| Anaconda    | Anaconda/Miniconda                                      （完整版和轻量版）                                                    |
+| 组件          | 说明                                                                                                                        |
+| ----------- | --------------------------------------------------------------------------------------------------------------------           |
+| Python 3.12 | python运行环境                                                                                                                 |
+| PyTorch     | pip install torch torchvision torchaudio （CPU版）        pytorch.org 复制带 cuda 的命令（GPU版）                               |
+| Anaconda    | Anaconda/Miniconda        （完整版和轻量版）                                                                                    |
 | VSCode      | python  jupyter(交互式运行工具)  vscode-icons(文件图标)                                                                         |
 
 ## 2.2 VSCode 使用要点
