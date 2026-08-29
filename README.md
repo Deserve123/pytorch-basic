@@ -26,7 +26,7 @@
 - **图像分类**：猫狗识别、商品分类、缺陷检测（最常见入门场景）。
 - **迁移学习**：拿 VGG/ResNet 预训练权重改几层，小数据也能高精度（`model_pretrained`）。
 - **模型上线**：训练完 `torch.save`，部署端 `torch.load` + `no_grad` 推理（`test`）。
-- **科研/教学原型**：Jupyter 交互式调试（`demo_jupyter` 的 `# %%` cell）。
+- **科研教学**：Jupyter 交互式调试（`demo_jupyter` 的 `# %%` cell）。
 
 ---
 
@@ -38,7 +38,7 @@
 | ----------- | --------------------------------------------------------------------------------------------------------------------           |
 | Python 3.12 | python运行环境                                                                                                                 |
 | PyTorch     | pip install torch torchvision torchaudio （CPU版）        pytorch.org 复制带 cuda 的命令（GPU版）                               |
-| Anaconda    | Anaconda/Miniconda        （完整版和轻量版）                                                                                    |
+| Anaconda    | Anaconda/Miniconda（完整版和轻量版）                                                                                    |
 | VSCode      | python  jupyter(交互式运行工具)  vscode-icons(文件图标)                                                                         |
 
 ## 2.2 VSCode 使用要点
