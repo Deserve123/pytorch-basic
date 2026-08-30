@@ -45,11 +45,11 @@
 
 - **选对解释器**：`Ctrl+Shift+P` → `Python: Select Interpreter` → 选装了 torch 的环境。
 - **交互式运行**：`demo_jupyter.py` 用 `# %%` 把脚本切成 cell，点右上角 ▶ 逐格运行，适合验证张量形状。
-- **GPU 自检**：`demo_jupyter` 首格就打印版本与 `cuda.is_available()`，装完先跑它确认环境对
+- **GPU 自检**：`demo_jupyter` 首格就打印版本与 `cuda.is_available()`，装完先跑它确认环境。
 
 ```python
 import torch
-print(torch.__version__, torch.cuda.is_available())   # 先看这俩再写代码
+print(torch.__version__, torch.cuda.is_available()) 
 ```
 
 ## 2.3 注意踩坑
